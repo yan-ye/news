@@ -1,0 +1,17 @@
+{
+  "name": "yanye-test-project",
+  "version": "1.0.0",
+  "description": "暂无",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yanye",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0"
+  }
+}
