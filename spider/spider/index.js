@@ -11,6 +11,7 @@ const cheerio = require('cheerio');
 let hotNews = [];
 let localNews = [];
 
+return false; //----------------------------
 //获取热点新闻链接函数
 let getHotNews = res => {
     let hotNews = [];
