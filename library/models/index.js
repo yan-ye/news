@@ -8,7 +8,9 @@ mongoose.connect($CONFIG.db.mongodb.url, { useNewUrlParser: true, useUnifiedTopo
 });
 
 require('./user_oauth');
+require('./news');
 
 exports.user_oauth = mongoose.model('user_oauth');
+exports.news = mongoose.model('news');
 
 console.log('init mongodb done');
